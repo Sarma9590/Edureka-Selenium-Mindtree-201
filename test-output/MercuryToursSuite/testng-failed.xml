@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [MercuryToursSuite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.mercury.org.framework.listeners.PdfListener"/>
+  </listeners>
+  <test name="MercuryToursTest(failed)">
+    <classes>
+      <class name="com.mercury.org.testexecute.test.BookingTest">
+        <methods>
+          <include name="backToHomePage"/>
+          <include name="loginInitialization"/>
+          <include name="bookingTest" invocation-numbers="0"/>
+          <include name="shutDownDriver"/>
+          <include name="initializatingDriver"/>
+        </methods>
+      </class> <!-- com.mercury.org.testexecute.test.BookingTest -->
+    </classes>
+  </test> <!-- MercuryToursTest(failed) -->
+</suite> <!-- Failed suite [MercuryToursSuite] -->

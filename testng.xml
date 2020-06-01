@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MercuryToursSuite" >
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.mercury.org.framework.listeners.PdfListener" />
+	</listeners>
+	<test name="MercuryToursTest">
+		<classes>
+			
+			<class name="com.mercury.org.testexecute.test.BookingTest" />
+			<class name="com.mercury.org.testexecute.test.RegisterTest" />
+			
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

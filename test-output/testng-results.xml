@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MercuryToursSuite" duration-ms="83615" started-at="2020-06-01T07:45:41Z" finished-at="2020-06-01T07:47:04Z">
+    <groups>
+    </groups>
+    <test name="MercuryToursTest" duration-ms="83615" started-at="2020-06-01T07:45:41Z" finished-at="2020-06-01T07:47:04Z">
+      <class name="com.mercury.org.testexecute.test.RegisterTest">
+        <test-method status="PASS" signature="loginInitialization()[pri:0, instance:com.mercury.org.testexecute.test.RegisterTest@4b1c1ea0]" name="loginInitialization" is-config="true" duration-ms="1" started-at="2020-06-01T13:16:55Z" finished-at="2020-06-01T13:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInitialization -->
+        <test-method status="PASS" signature="verifyValidCredentials()[pri:0, instance:com.mercury.org.testexecute.test.RegisterTest@4b1c1ea0]" name="verifyValidCredentials" duration-ms="5454" started-at="2020-06-01T13:16:55Z" finished-at="2020-06-01T13:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidCredentials -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:com.mercury.org.testexecute.test.RegisterTest@4b1c1ea0]" name="backToHomePage" is-config="true" duration-ms="3708" started-at="2020-06-01T13:17:01Z" finished-at="2020-06-01T13:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+      </class> <!-- com.mercury.org.testexecute.test.RegisterTest -->
+      <class name="com.mercury.org.testexecute.test.BookingTest">
+        <test-method status="PASS" signature="initializatingDriver()[pri:0, instance:com.mercury.org.testexecute.test.BookingTest@6acdbdf5]" name="initializatingDriver" is-config="true" duration-ms="13141" started-at="2020-06-01T13:15:28Z" finished-at="2020-06-01T13:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializatingDriver -->
+        <test-method status="PASS" signature="loginInitialization()[pri:0, instance:com.mercury.org.testexecute.test.BookingTest@6acdbdf5]" name="loginInitialization" is-config="true" duration-ms="0" started-at="2020-06-01T13:15:42Z" finished-at="2020-06-01T13:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInitialization -->
+        <test-method status="PASS" signature="bookingTest(java.util.Hashtable)[pri:0, instance:com.mercury.org.testexecute.test.BookingTest@6acdbdf5]" name="bookingTest" duration-ms="66429" started-at="2020-06-01T13:15:45Z" finished-at="2020-06-01T13:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Type=Round, FirstName=John, ArrivingIn=Frankfurt , LastName=Hopkins, Returning=January , Airline=Blue Skies Airlines}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingTest -->
+        <test-method status="PASS" signature="backToHomePage()[pri:0, instance:com.mercury.org.testexecute.test.BookingTest@6acdbdf5]" name="backToHomePage" is-config="true" duration-ms="3519" started-at="2020-06-01T13:16:52Z" finished-at="2020-06-01T13:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method status="PASS" signature="shutDownDriver()[pri:0, instance:com.mercury.org.testexecute.test.BookingTest@6acdbdf5]" name="shutDownDriver" is-config="true" duration-ms="778" started-at="2020-06-01T13:17:10Z" finished-at="2020-06-01T13:17:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDownDriver -->
+      </class> <!-- com.mercury.org.testexecute.test.BookingTest -->
+    </test> <!-- MercuryToursTest -->
+  </suite> <!-- MercuryToursSuite -->
+</testng-results>
