@@ -19,9 +19,9 @@ Test Case 2 -
 
 Validate the credentials of the user on the application.Atthe end, an Email having test report as an attachment in PDF format should be triggeredautomatically to all the stake-holders and it should display the final result as pass/fail of the individual test case of the suite.
 
-Steps to Follow:
+Steps to Follow for Final Project:
 
-Download File to your local desktop and extract.
+Download all Files excepts Module files to your local desktop and extract.
 
 Open Eclipse-->Import as Maven file.
 
